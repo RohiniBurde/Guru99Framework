@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31523" started-at="2017-06-23T13:01:11Z" finished-at="2017-06-23T13:01:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31523" started-at="2017-06-23T13:01:11Z" finished-at="2017-06-23T13:01:43Z">
+      <class name="Guru99AutomationProject.loginpage.Tc_002_ValidLogin">
+        <test-method status="PASS" signature="setup2()[pri:0, instance:Guru99AutomationProject.loginpage.Tc_002_ValidLogin@7b49cea0]" name="setup2" is-config="true" duration-ms="31363" started-at="2017-06-23T18:31:11Z" finished-at="2017-06-23T18:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup2 -->
+        <test-method status="SKIP" signature="verifyValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Guru99AutomationProject.loginpage.Tc_002_ValidLogin@7b49cea0]" name="verifyValidLogin" duration-ms="0" started-at="2017-06-23T18:31:43Z" data-provider="login_data" finished-at="2017-06-23T18:31:43Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:150)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Guru99AutomationProject.loginpage.Tc_002_ValidLogin@7b49cea0]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-06-23T18:31:43Z" finished-at="2017-06-23T18:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Guru99AutomationProject.loginpage.Tc_002_ValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
